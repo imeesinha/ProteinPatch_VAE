@@ -1,0 +1,25 @@
+# This file was created Mon Jul 18 02:25:21 2022
+# Created by:
+#                       :-) GROMACS - gmx sasa, 2019.6 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /data/sinhai/ProteinPatchAnalysis_github/SamplePrep/1raw_pdb
+# Command line:
+#   gmx sasa -f temp0.pdb -s temp0.pdb -or 9PAP-resarea.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Green Red Orange Magenta Azure Cyan Skyblue
+#
+@    title "Solvent Accessible Surface"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Total"
+      0.000   93.206
